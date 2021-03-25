@@ -22,7 +22,12 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777; 
+  color: #777;
+
+  /* Variables */
+  --primary-colour: #219451;
+  --primary-colour-dark: #186E3C;
+  --primary-colour-light: #27ae60;
 }
 
 
@@ -50,6 +55,119 @@ body {
   clear: both; 
 }
 
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* Nav bar */
+
+.header-container {
+  height: fit-content;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container {
+  order: 0;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-left: 1.5rem;
+}
+
+.nav__menu {
+  z-index: 999;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav__menu--bar {
+  width: 3.5rem;
+  height: .5rem;
+  background-color: #222;
+  margin: .6rem 0;
+  transition: 0.4s;
+  border-radius: .5rem;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-.9rem, .6rem) ;
+  transform: rotate(-45deg) translate(-.9rem, .6rem) ;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-.8rem, -.8rem) ;
+  transform: rotate(45deg) translate(-.8rem, -.8rem) ;
+}
+
+.nav__menu--overlay {
+  z-index: 998;
+  visibility: hidden;
+  opacity: 0; /* Change one of these? */
+
+  transition: all .3s ease-out;
+}
+
+.nav__menu--overlay ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.nav__menu--overlay ul li {
+  padding: 2rem;
+}
+
+.nav__menu--overlay ul a:nth-child(2n-1){
+  background-color: var(--primary-colour);
+}
+
+.nav__menu--overlay ul a {
+  background-color: var(--primary-colour-dark);
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Roboto Slab", sans-serif;
+
+  transition: all .3s ease-in-out;
+}
+
+  .nav__menu--overlay ul a:hover {
+    background-color: var(--primary-colour-light);
+    padding-left: 3rem;
+  }
+
+
+.nav__logo {
+  height: 5rem;
+  width: auto;
+  order: 2;
+}
+
+
+/* Header home */
+
+/* .header-home {
+
+} */
 
 /* Utilities */
 .u-center-text { text-align: center !important; }
