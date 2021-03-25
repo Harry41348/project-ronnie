@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet"> 
 
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Tuinaanleg4u</title>
         <script src="scripts/script.js" async></script>
+        <script src="https://kit.fontawesome.com/870205746a.js" crossorigin="anonymous" async></script>
