@@ -3,7 +3,7 @@
     </head>
     <body>
         <div class="footer-wrapper">
-            <header class="header-home">
+            <header class="header__home">
                 <div class="header-container">
                     <div class="nav-container">
                         <div class="nav__menu" onclick="myFunction(this)">
@@ -13,7 +13,7 @@
                         </div>
                     </div>
 
-                    <img src="imgs/logo.jpg" alt="tuinaanleg4u logo" class="nav__logo">
+                    <img src="imgs/logo.jpg" alt="tuinaanleg4u logo" class="nav__logo">                    
                 </div>
                 <div class="nav__menu--overlay" id="menu">
                     <ul>
@@ -21,6 +21,7 @@
                         <a href="contact/index.php"><li>Contact</li></a>
                     </ul>
                 </div>
+                <h1 class="header__home--title">Tuinaanleg4u</h1>
             </header>
             
             <main>

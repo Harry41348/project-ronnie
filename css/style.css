@@ -175,8 +175,9 @@ body {
 }
 
 .footer {
+  min-height: var(--footer-size);
   height: content;
-  background-color: #111;
+  background-color: #161616;
   color: #fff;
   font-size: 1.5rem;
   font-family: "montserrat", sans-serif;
@@ -244,7 +245,7 @@ body {
 
 /* Header home */
 
-.header-home {
+.header__home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url("images/mobile-header.JPG");
   height: calc(100vh - var(--footer-size));
   background-position: center;
@@ -252,6 +253,15 @@ body {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+}
+
+.header__home--title {
+  color: #fff;
+  margin-top: 7.5rem;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'montserrat', serif;
+  font-weight: 300;
 }
 
 /* Utilities */
