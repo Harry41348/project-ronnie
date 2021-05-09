@@ -3,10 +3,8 @@ function myFunction(x) {
 
   var menu = document.getElementById("menu");
   if (menu.style.opacity != 0){
-    menu.style.opacity = 0;
-    menu.style.visibility = "hidden";
+    menu.classList.toggle("nav__active");
   } else {
-    menu.style.opacity = 1;
-    menu.style.visibility = "visible";
+    menu.classList.toggle("nav__active");
   }
 } 
