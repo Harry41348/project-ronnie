@@ -35,13 +35,33 @@ body {
 
 .heading-primary {
   color: #fff;
-  font-size: 5rem;
-  text-transform: uppercase;
-  backface-visibility: hidden; /* Stops shakiness */
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'montserrat', serif;
+  font-weight: 300;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, .8);
 }
 
 .heading-secondary {
-  font-size: 3.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'montserrat', serif;
+  font-weight: 300;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, .8);
+  padding-bottom: .6rem;
+  margin-top: 1rem;
+
+  background-image: linear-gradient(90deg, var(--primary-colour-light), var(--primary-colour-light));
+  background-repeat: no-repeat;
+  background-size: 50% 1px;
+  background-position: 50% 100%;
+
+  transition: all .2s ease-in-out;
+}
+
+.heading-dark {
+  color: #333;
 }
 
 .paragraph { font-size: 1.6rem; }
@@ -89,9 +109,22 @@ body {
   align-items: center;
 }
 
+.header__dark .header-container {
+  background-color: #222;
+}
+
+.header__dark .nav__menu--bar {
+  background-color: #eee;
+  box-shadow: 0 0 4px 2px #333c;
+}
+
 .header-container img {
   width: 12.5rem;
   height: auto;
+}
+
+.header__dark .nav__desktop a {
+  color: #eee;
 }
 
 /* Nav bar */
@@ -104,7 +137,7 @@ body {
   color: #333;
   text-decoration: none;
   font-size: 1.5rem;
-  padding-bottom: 1px;
+  padding-bottom: 2px;
   margin: 0 1rem;
 
   background-image: linear-gradient(90deg, var(--primary-colour-light), var(--primary-colour-light));
@@ -117,6 +150,10 @@ body {
 
   .nav__desktop a:hover {
     background-size: 100% 1px;
+  }
+
+.nav__desktop .nav__item--active {
+  background-size: 100% 1px;
   }
 
 .nav__menu {
@@ -303,18 +340,89 @@ body {
   flex-direction: column;
 }
 
-.header__home--title {
-  color: #fff;
-  /* margin-top: 7.5rem; */
+/* Projects */
+
+.projects__container {
+  margin-bottom: 1rem;
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem;
+  list-style-type: none;
+}
+
+.projects__item {
+  position: relative;
+  width: 85vw;
+  height: fit-content;
+  margin: 1rem;
+}
+
+.projects-image:hover {
+  filter: brightness(50%);
+}
+
+.projects-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 0 1.2rem 2px rgba(100, 100, 100, .25);
+  border-radius: 2px;
+
+  transition: all .3s ease-in-out;
+}
+
+
+/* Services */
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4rem;
+}
+
+.service__text--container {
+  
+}
+
+.service__text--heading {
+  color: #333;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: 'montserrat', serif;
   font-weight: 300;
-  text-shadow: 3px 3px 8px rgba(0, 0, 0, .8);
+  /* padding-bottom: .6rem;
+  margin: 1rem 0;
 
-  justify-self: center;
-  align-self: center;
+  background-image: linear-gradient(90deg, #333, #333);
+  background-repeat: no-repeat;
+  background-size: 30% 1px;
+  background-position: 50% 100%; */
+
+  transition: all .2s ease-in-out;
 }
+
+.service__text--heading:first-child {
+  margin-top: 2rem;
+}
+
+.service__text--paragraph {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.service__image {
+  margin-top: 1rem;
+  width: 50vw;
+  height: auto;
+}
+
+
 
 /* Utilities */
 .u-center-text { text-align: center !important; }
@@ -372,35 +480,46 @@ body {
 
   html { font-size: 75%; /* 1rem = 12px */ }
 
-  .footer div {
-    margin: 1rem 0;
-  }
+  .footer div { margin: 1rem 0; }
+  .footer__top { flex-direction: row; }
+  .footer__top div { margin: 0 2rem; }
+  .footer__contact p { margin: .6rem 0; }
 
-  .footer__top {
-    flex-direction: row;
-  }
-
-  .footer__top div {
-    margin: 0 2rem;
-  }
+  body { --footer-size: 20rem; }
 }
 
 @media all and (min-width: 56.25em) { /* Bigger than Portrait tablets - 900px+ */
 
+  .projects__item {
+    width: auto;
+    height: 40vh;
+  }
+
+  .projects__item:not(:last-child) {
+    flex-grow: 1;
+  }
+
+  .projects-image {
+    max-height: 100%;
+    min-width: 100%;
+  }
 }
 
 @media all and (min-width: 75em) { /* Bigger than Landscape tablets - 1200px+ */
 
-  html { font-size: 100%; /* 1rem = 16px */ }
-  body { --footer-size: 20rem; }
+  html { font-size: 87.5%; /* 1rem = 14px */ }
   
-  .nav__mobile--container {
-    visibility: hidden;
+  .nav__mobile--container { visibility: hidden; }
+  .nav__desktop { visibility: visible; }
+
+  .footer { font-size: 1.2rem; }
+  .footer h3 { font-size: 2rem; }
+
+  .projects__item {
+    height: 30vh;
   }
 
-  .nav__desktop {
-    visibility: visible;
-  }
+  
 }
 
 @media all and (min-width: 112.5em) { /* Bigger than Big desktops - 1800px+ */

@@ -8,8 +8,8 @@
     <div class="footer__links">
       <h3 class="footer__text">Links</h3>
       <ul class="footer__list">
-        <li class="footer__item"><a href="projects/">Projects</a></li>
-        <li class="footer__item"><a href="projects/">Contact</a></li>
+        <li class="footer__item"><a href="projects.php">Projects</a></li>
+        <li class="footer__item"><a href="contact.php">Contact</a></li>
       </ul>
     </div>
   </div>

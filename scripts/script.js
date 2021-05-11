@@ -7,4 +7,8 @@ function myFunction(x) {
   } else {
     menu.classList.toggle("nav__active");
   }
-} 
+}
+
+function hover(element, location) {
+  element.setAttribute('src', location);
+}
