@@ -6,12 +6,11 @@
                 <?php include_once('includes/navbar.php'); ?>
                 <div class="flex-center">
                     <h1 class="heading-secondary heading-dark">Services</h1>
-                    <p></p>
                 </div>
             </header>
             
             <main>
-                <section class="services">
+                <section class="services container">
                     <!-- Heritage boundaries -->
                     <div class="service-container">
                         <div class="service__text--container">
@@ -40,7 +39,7 @@
                             it concerns small quantities, which are often excavated "by hand", then we have 
                             tipping trailers.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                        <img class="service__image" src="imgs/project_04/finished.jpg" alt="Heritage boudaries image">
                     </div>
 
                     <!-- Paving -->
@@ -57,7 +56,7 @@
                             laid of natural stone in stabilized sand, or a sand cement bed lined with hard 
                             joints.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                        <img class="service__image" src="imgs/project_03/start.jpg" alt="Heritage boudaries image">
                     </div>
 
                     <!-- Carpentry -->
@@ -76,7 +75,7 @@
                             weather conditions. The foregoing also applies to garden houses or log cabins;we 
                             can provide you with all wishes and choices.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                        <img class="service__image" src="imgs/project_05/finished.jpg" alt="Heritage boudaries image">
                     </div>
 
                     <!-- Pond construction -->
@@ -107,7 +106,7 @@
                             is always included with a garden design, containing the names and any special 
                             details.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                        <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
                     </div>
                 </section>
             </main>

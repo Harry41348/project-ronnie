@@ -11,9 +11,5 @@
 
         <title>Tuinaanleg4u</title>
         <script src="https://kit.fontawesome.com/870205746a.js" crossorigin="anonymous" async></script>
-        <?php
-            echo "<script src=\"" . $_SERVER['DOCUMENT_ROOT'] . $directory . "/scripts/script.js\" async></script>";
-            echo "<link rel=\"stylesheet\" tpye=\"text/css\" href=\"" . $_SERVER['DOCUMENT_ROOT'] . $directory . "/css/style.css\">";
-        ?>
-
-<link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="scripts/script.js" async></script>
+        <link rel="stylesheet" tpye="text/css" href="css/style.css">

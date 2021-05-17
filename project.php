@@ -22,12 +22,11 @@
                 <?php include_once('includes/navbar.php'); ?>
                 <div class="flex-center">
                     <h1 class="heading-secondary heading-dark"><?php echo $row[2]; ?></h1>
-                    <p></p>
                 </div>
             </header>
             
             <main>
-                <section class="projects">
+                <section class="individual-projects">
                     <div class="projects__container container">
                         <ul class="projects__list">
                             <?php
@@ -36,21 +35,27 @@
                                 $number_of_photos = $row[1] ?? false;
 
                                 echo "<li class=\"projects__item\">";
-                                echo "<img class=\"projects-image\" src=\"imgs/" . $pointer . "/start.jpg\" alt=\"Start of project.\">";
+                                echo "<img class=\"projects-image\" src=\"imgs/" . $pointer . "/start.jpg\" alt=\"Start of project.\" onclick=\"changeImage(this);\">";
                                 echo "</li>";
 
                                 for ($i = 1; $i <= $number_of_photos; $i++){
                                     echo "<li class=\"projects__item\">";
-                                    echo "<img class=\"projects-image\" src=\"imgs/" . $pointer . "/image_" . $i . ".jpg\" alt=\"Image " . $i . ".\">";
+                                    echo "<img class=\"projects-image\" src=\"imgs/" . $pointer . "/image_" . $i . ".jpg\" alt=\"Image " . $i . ".\" onclick=\"changeImage(this);\">";
                                     echo "</li>";
                                 }
 
                                 echo "<li class=\"projects__item\">";
-                                echo "<img class=\"projects-image\" src=\"imgs/" . $pointer . "/finished.jpg\" alt=\"Start of project.\">";
+                                echo "<img class=\"projects-image\" src=\"imgs/" . $pointer . "/finished.jpg\" alt=\"Start of project.\" onclick=\"changeImage(this);\">";
                                 echo "</li>";
 
                             ?>
                         </ul>
+                    </div>
+                    <div class="expanded__image--wrapper">
+                        <div class="expanded__image--container container">
+                            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                            <img src="imgs/<?php echo $pointer ?>/start.jpg" id="expandedImg">
+                        </div>
                     </div>
                 </section>
             </main>

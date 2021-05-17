@@ -7,12 +7,11 @@
                 <?php include_once('includes/navbar.php'); ?>
                 <div class="flex-center">
                     <h1 class="heading-secondary heading-dark">Projects</h1>
-                    <p></p>
                 </div>
             </header>
             
             <main>
-                <section class="projects">
+                <section class="projects container">
                     <div class="projects__container container">
                         <ul class="projects__list">
                             <?php 
