@@ -1,5 +1,3 @@
-<?php $directory="projects/project-ronnie/"; ?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
