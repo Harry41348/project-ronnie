@@ -14,19 +14,19 @@
                     <form action="contact_request.php" class="contact__form" method="POST" name="contactForm">
                         <div class="form__container">
                             <div class="form__group">
-                                <input type="text" class="contact__form--control" id="name" name="name" placeholder="Name">
+                                <input type="text" class="contact__form--control" id="name" name="name" placeholder="Naam">
                             </div>
                             <div class="form__group">
-                                <input type="email" class="contact__form--control" id="email" name="email" placeholder="Email">
+                                <input type="email" class="contact__form--control" id="email" name="email" placeholder="E-mail">
                             </div>
                             <div class="form__group">
-                                <input type="text" class="contact__form--control" id="subject" name="subject" placeholder="Subject">
+                                <input type="text" class="contact__form--control" id="subject" name="subject" placeholder="Onderwerpen">
                             </div>
                             <div class="form__group">
-                                <textarea class="contact__form--control" name="message" id="message" cols="30" rows="4" placeholder="Write your message here"></textarea>
+                                <textarea class="contact__form--control" name="message" id="message" cols="30" rows="4" placeholder="Schrijf je bericht hier"></textarea>
                             </div>
                             <div class="form__group">
-                                <input type="submit" class="btn-contact" value="Send Message">
+                                <input type="submit" class="btn-contact" value="Bericht versturen">
                             </div>
                         </div>
                     </form>

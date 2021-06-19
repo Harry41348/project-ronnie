@@ -8,8 +8,8 @@
     <div class="footer__links">
       <h3 class="footer__text">Links</h3>
       <ul class="footer__list">
-        <?php if ($page != "services.php" && $page != "index.php") { echo "<li class=\"footer__item\"><a href=\"services.php\">Services</a></li>"; } ?>
-        <?php if ($page != "projects.php" && $page != "project.php") { echo "<li class=\"footer__item\"><a href=\"projects.php\">Projects</a></li>"; } ?>
+        <?php if ($page != "services.php" && $page != "index.php") { echo "<li class=\"footer__item\"><a href=\"services.php\">Diensten</a></li>"; } ?>
+        <?php if ($page != "projects.php" && $page != "project.php") { echo "<li class=\"footer__item\"><a href=\"projects.php\">Projecten</a></li>"; } ?>
         <?php if ($page != "contact.php") { echo "<li class=\"footer__item\"><a href=\"contact.php\">Contact</a></li>"; } ?>
       </ul>
     </div>

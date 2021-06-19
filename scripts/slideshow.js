@@ -7,6 +7,8 @@ images[1] = 'imgs/header_images/image_2.jpg';
 images[2] = 'imgs/header_images/image_3.jpg';
 images[3] = 'imgs/header_images/image_4.jpg';
 images[4] = 'imgs/header_images/image_5.jpg';
+images[5] = 'imgs/header_images/image_6.jpg';
+images[6] = 'imgs/header_images/image_7.jpg';
 
 
 function changeImg() {

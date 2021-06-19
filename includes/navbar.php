@@ -18,8 +18,8 @@
 
 <div class="header-container">
   <div class="nav__desktop">
-      <a <?php if ($page == "services.php") { echo "class=\"nav__item--active\""; } ?> href="services.php">Services</a>
-      <a <?php if ($page == "projects.php") { echo "class=\"nav__item--active\""; } ?> href="projects.php">Projects</a>
+      <a <?php if ($page == "services.php") { echo "class=\"nav__item--active\""; } ?> href="services.php">Diensten</a>
+      <a <?php if ($page == "projects.php") { echo "class=\"nav__item--active\""; } ?> href="projects.php">Projecten</a>
       <a <?php if ($page == "contact.php") { echo "class=\"nav__item--active\""; } ?> href="contact.php">Contact</a>
   </div>
   <a href="index.php"><img src="./imgs/logo.png" alt="tuinaanleg4u logo"></a>

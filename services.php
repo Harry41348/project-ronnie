@@ -5,109 +5,156 @@
             <header class="header__dark">
                 <?php include_once('includes/navbar.php'); ?>
                 <div class="flex-center">
-                    <h1 class="heading-secondary heading-dark">Services</h1>
+                    <h1 class="heading-secondary heading-dark">Diensten</h1>
                 </div>
             </header>
             
             <main>
                 <section class="services container">
-                    <!-- Heritage boundaries -->
+
+                    <!-- Design -->
                     <div class="service-container">
                         <div class="service__text--container">
-                            <h2 class="service__text--heading">Heritage boundaries</h2>
-                            <p class="service__text--paragraph">A garden starts with the fence, the 
-                            demarcation of the plot / plot. You can choose to apply this (due to work 
-                            in the garden) only later. But on paper, this is the first step towards 
-                            the final design. The options offered include: wooden fences in parts or 
-                            timbered, fences hung between concrete posts, mesh fences made from grids, 
-                            or stretched in various sizes and colors.</p>
+                            <h2 class="service__text--heading">Ontwerp</h2>
+                            <p class="service__text--paragraph">De projecten worden altijd uitgetekend en op schaal aangeboden. 
+                            Een nieuwe tuin, of delen hiervan starten op papier. De uitvoering zal vrijwel naadloos aansluiten 
+                            aan het ontwerp.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/services/Joke Raven 3d.jpg" alt="Joke raven design image">
+                            <img class="service__image" src="imgs/services/joke raven.jpg" alt="Joke raven outcome image">
+                        </div>
+                        
+                    </div>
+
+                    <!-- Fencing -->
+                    <div class="service-container">
+                        <div class="service__text--container">
+                            <h2 class="service__text--heading">Erfafscheidingen</h2>
+                            <p class="service__text--paragraph">Een tuin start met een omheining, op papier is dit de eerste stap 
+                            richting het eindresultaat. Er kan gekozen worden om de schutting of haag in een later stadium te 
+                            plaatsen door werkzaamheden binnen de erfgrenzen.</p>
+                        </div>
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                        </div>
+                        
                     </div>
 
                     <!-- Earthmoving -->
                     <div class="service-container">
                         <div class="service__text--container">
-                            <h2 class="service__text--heading">Earthmoving</h2>
-                            <p class="service__text--paragraph">After setting out the indicated places, 
-                            these can be dug out, (if possible with an excavator) removed and, if necessary, 
-                            replenished with sand. We have access to all kinds of excavators, large and small. 
-                            At least 1m wide and can even enter the garden through a standard sized garden door. 
-                            For ergonomic reasons, as many operations as possible (such as excavation) are 
-                            carried out by machines. If this is not possible, so-called "hand excavation" is 
-                            done. Disposal materials, as well as soil, are usually disposed of by container. If 
-                            it concerns small quantities, which are often excavated "by hand", then we have 
-                            tipping trailers.</p>
+                            <h2 class="service__text--heading">Grondverzet</h2>
+                            <p class="service__text--paragraph">De basis voor een tuin is de ondergrond. Deze moet geschikt zijn voor 
+                            de doeleinden waar het voor gebruikt gaat worden. Hiervoor wordt op grote en kleine schaal materieel ingezet, 
+                            en wordt o.a. grond en zand op de gewenste plaatsen aangebracht.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_04/finished.jpg" alt="Heritage boudaries image">
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_04/finished.jpg" alt="Heritage boudaries image">
+                        </div>
                     </div>
 
                     <!-- Paving -->
                     <div class="service-container">
                         <div class="service__text--container">
-                            <h2 class="service__text--heading">Paving</h2>
-                            <p class="service__text--paragraph">The infrastructure of the garden and therefore 
-                            the most important factor within the boundaries of landscaping. Today, the 
-                            possibilities of paving are virtually endless. This in accordance with dimensions, 
-                            colors and applicability. Advice is given in the design. To determine in which 
-                            atmosphere the garden should be designed, the paving is a dominant interpretation 
-                            in the whole. We have the knowledge and equipment to offer almost any form of 
-                            paving. Whether this is a simple piece of pavement with clinkers, or a terrace 
-                            laid of natural stone in stabilized sand, or a sand cement bed lined with hard 
-                            joints.</p>
+                            <h2 class="service__text--heading">Bestrating</h2>
+                            <p class="service__text--paragraph">De infrastructuur van de tuin is de belangrijkste factor binnen de grenzen 
+                            van de aanleg. Tegenwoordig zijn de mogelijkheden van de bestrating vrijwel eindeloos. Dit conform maatvoering, 
+                            kleuren en toepasbaarheid. Te bepalen in welke sfeer de tuin moet worden aangelegd is de bestrating een dominante 
+                            invulling in het geheel.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_03/start.jpg" alt="Heritage boudaries image">
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_03/start.jpg" alt="Heritage boudaries image">
+                        </div>
+                    </div>
+
+                    <!-- Planters -->
+                    <div class="service-container">
+                        <div class="service__text--container">
+                            <h2 class="service__text--heading">Tuinbakken</h2>
+                            <p class="service__text--paragraph">Niet meer weg te denken uit het straatbeeld, waar vroeger de spoorbiels lag 
+                            is het assortiment muurstenen hedendaags aanzienlijk gevarieerd. Naast de constructieve waarde creëren verhoogde 
+                            borders al snel diepte in de tuin.</p>
+                        </div>
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_05/finished.jpg" alt="Heritage boudaries image">
+                        </div>
+                    </div>
+
+                    <!-- Garden lights -->
+                    <div class="service-container">
+                        <div class="service__text--container">
+                            <h2 class="service__text--heading">Tuinverlichting</h2>
+                            <p class="service__text--paragraph">Naast de functionaliteit van buitenverlichting biedt ons 12 volt lichtsysteem 
+                            veel sfeer in de avond uren en de donkere dagen. De keuze bestaat uit inbouwspots, tuinspots, wandlampen en staande 
+                            lampen, eventueel vijververlichting en zelfs kerstverlichting.</p>
+                        </div>
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_02/start.jpg" alt="Heritage boudaries image">
+                        </div>
                     </div>
 
                     <!-- Carpentry -->
                     <div class="service-container">
                         <div class="service__text--container">
-                            <h2 class="service__text--heading">Carpentry</h2>
-                            <p class="service__text--paragraph">Carpentry is increasingly being used in 
-                            gardens. A garden can be considerably enriched by a simple pergola or a hardwood 
-                            deck. A pergola is a relatively inexpensive way to provide rapid progress: ie, 
-                            spatial enlargement. A pergola overgrown with beautiful climbing plants in bloom 
-                            is a pleasure to look at. Decks are the ideal solution for a patio by the water or 
-                            a place where you would prefer paving, but not made of stone. We also offer 
-                            verandas. Ready-made, or designed, with or without roof tiles in a variety of 
-                            materials. A veranda is often reminiscent of the front of a house, but it is great 
-                            to have a veranda in the garden, where you can enjoy peace and quiet even in bad 
-                            weather conditions. The foregoing also applies to garden houses or log cabins;we 
-                            can provide you with all wishes and choices.</p>
+                            <h2 class="service__text--heading">Timmerwerken</h2>
+                            <p class="service__text--paragraph">Een tuin kan behoorlijk verrijkt worden door een pergola of vlonder. Ook een 
+                            blokhut geeft al snel een mogelijkheid tot berging. Voor een groot stuk leefgenot wordt de overkapping steeds vaker 
+                            toegepast, kant en klaar of maatwerk. Voor de bescherming van het hout voor een overkapping of blokhut beschikken 
+                            wij over de juiste elastische verf welk uitermate geschikt is voor werkende delen.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_05/finished.jpg" alt="Heritage boudaries image">
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
+                        </div>
                     </div>
 
-                    <!-- Pond construction -->
+                    <!-- Ponds -->
                     <div class="service-container">
                         <div class="service__text--container">
-                            <h2 class="service__text--heading">Pond construction</h2>
-                            <p class="service__text--paragraph">Pond is the perfect combination of flora 
-                            and fauna. It gives life to a garden. Not only the fish that swim around in it, 
-                            but all kinds of animals that permanently or temporarily house in it that would 
-                            otherwise never reside in your garden. We make ponds in all shapes and sizes. This 
-                            entirely according to your wishes. Sleek and modern, or round and natural. To keep 
-                            the water in optimal condition, we have the knowledge and technology by applying 
-                            filter systems and UV lamps. Something that is increasingly seen in the cage carp 
-                            pond, because these fish often eat the plants that keep the pond in good condition.</p>
+                            <h2 class="service__text--heading">Vijvers</h2>
+                            <p class="service__text--paragraph">Voor de liefhebber realiseren wij vijvers en waterpartijen, strak en modern 
+                            of met een natuurlijke uitstraling. Vijvers worden vaak in verband gebracht met veel onderhoud, echter een goed 
+                            aangelegde vijver behoeft minimale aandacht.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_02/start.jpg" alt="Heritage boudaries image">
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
+                        </div>
                     </div>
 
                     <!-- Planting -->
                     <div class="service-container">
                         <div class="service__text--container">
-                            <h2 class="service__text--heading">Planting</h2>
-                            <p class="service__text--paragraph">The last, although not the least important 
-                            element in a garden is planting. In a design, the planting is the covering of 
-                            the garden and ensures that all other elements come together in harmony. It may 
-                            take some time before the desired design result is visible. The initial situation 
-                            is always drawn in the design, because plants need time to grow. A planting plan 
-                            is always included with a garden design, containing the names and any special 
-                            details.</p>
+                            <h2 class="service__text--heading">Beplanting</h2>
+                            <p class="service__text--paragraph">De laatste stap naar het eindresultaat is het aankleden van de tuin, het 
+                            inplanten van de borders, het leggen van graszoden. Extreme weersomstandigheden zien we steeds vaker, bij hevige 
+                            regen bieden borders ruimte om water af te voeren. Voor de steeds drogere zomers bieden wij irrigatiesystemen aan.</p>
                         </div>
-                        <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
+                        </div>
                     </div>
+
+                    <!-- Maintenance -->
+                    <div class="service-container">
+                        <div class="service__text--container">
+                            <h2 class="service__text--heading">Tuinonderhoud</h2>
+                            <p class="service__text--paragraph">Na de afronding van de aanleg start het onderhoud. Wij verzorgen onderhoud aan 
+                            particuliere en bedrijfstuinen. Ook beheren wij de groenvoorziening van verenigingen van eigenaren.</p>
+                        </div>
+                        <div class="service__images--container">
+                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
+                        </div>
+                    </div>
+
                 </section>
             </main>
         </div>

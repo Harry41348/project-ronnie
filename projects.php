@@ -6,7 +6,7 @@
             <header class="header__dark">
                 <?php include_once('includes/navbar.php'); ?>
                 <div class="flex-center">
-                    <h1 class="heading-secondary heading-dark">Projects</h1>
+                    <h1 class="heading-secondary heading-dark">Projecten</h1>
                 </div>
             </header>
             
