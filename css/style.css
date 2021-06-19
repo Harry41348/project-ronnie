@@ -346,7 +346,7 @@ body {
 /* Header home */
 
 .header__home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url("images/mobile-header.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url("../imgs/header_images/image_1.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
