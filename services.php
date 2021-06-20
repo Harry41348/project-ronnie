@@ -21,8 +21,8 @@
                             aan het ontwerp.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/services/Joke Raven 3d.jpg" alt="Joke raven design image">
-                            <img class="service__image" src="imgs/services/joke raven.jpg" alt="Joke raven outcome image">
+                            <img class="service__image" src="imgs/services/joke_raven_model.jpg" alt="Joke raven design image">
+                            <img class="service__image" src="imgs/services/joke_raven.jpg" alt="Joke raven outcome image">
                         </div>
                         
                     </div>
@@ -36,8 +36,7 @@
                             plaatsen door werkzaamheden binnen de erfgrenzen.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/services/fencing.jpg" alt="Fencing image">
                         </div>
                         
                     </div>
@@ -51,8 +50,8 @@
                             en wordt o.a. grond en zand op de gewenste plaatsen aangebracht.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_04/finished.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/services/earthmoving.jpg" alt="Earthmoving image">
+                            <img class="service__image" src="imgs/services/earthmoving_2.jpg" alt="Earthmoving image">
                         </div>
                     </div>
 
@@ -66,8 +65,8 @@
                             invulling in het geheel.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_03/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/services/paving.JPG" alt="Paving image">
+                            <img class="service__image" src="imgs/services/paving_2.jpg" alt="Paving image">
                         </div>
                     </div>
 
@@ -80,8 +79,8 @@
                             borders al snel diepte in de tuin.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_05/finished.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/services/planters.jpg" alt="Planters image">
+                            <img class="service__image" src="imgs/services/planters_2.png" alt="Planters image">
                         </div>
                     </div>
 
@@ -94,8 +93,7 @@
                             lampen, eventueel vijververlichting en zelfs kerstverlichting.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_02/start.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/services/garden_lights.jpg" alt="Garden lights image">
                         </div>
                     </div>
 
@@ -109,8 +107,6 @@
                             wij over de juiste elastische verf welk uitermate geschikt is voor werkende delen.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
                         </div>
                     </div>
 
@@ -123,8 +119,8 @@
                             aangelegde vijver behoeft minimale aandacht.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/services/ponds.JPG" alt="Ponds image">
+                            <img class="service__image" src="imgs/services/ponds_2.jpg" alt="Ponds image">
                         </div>
                     </div>
 
@@ -137,8 +133,8 @@
                             regen bieden borders ruimte om water af te voeren. Voor de steeds drogere zomers bieden wij irrigatiesystemen aan.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
+                            <img class="service__image" src="imgs/services/planting.jpg" alt="Planting image">
+                            <img class="service__image" src="imgs/services/planting_2.jpg" alt="Planting image">
                         </div>
                     </div>
 
@@ -150,8 +146,6 @@
                             particuliere en bedrijfstuinen. Ook beheren wij de groenvoorziening van verenigingen van eigenaren.</p>
                         </div>
                         <div class="service__images--container">
-                            <img class="service__image" src="imgs/project_01/start.jpg" alt="Heritage boudaries image">
-                            <img class="service__image" src="imgs/project_06/finished.jpg" alt="Heritage boudaries image">
                         </div>
                     </div>
 
